@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjectionTests", "DependencyInjectionTests\DependencyInjectionTests.csproj", "{562757FD-4609-455C-8BBC-6A98D47291DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{C1BB5FBC-15F3-4661-9CB6-DA57CB2611D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BAB39D7-3F22-4350-A6EC-7EAC8A754FFF}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appconfig.txt = appconfig.txt
+		appconfigExample.txt = appconfigExample.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{562757FD-4609-455C-8BBC-6A98D47291DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562757FD-4609-455C-8BBC-6A98D47291DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562757FD-4609-455C-8BBC-6A98D47291DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562757FD-4609-455C-8BBC-6A98D47291DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BB5FBC-15F3-4661-9CB6-DA57CB2611D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BB5FBC-15F3-4661-9CB6-DA57CB2611D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BB5FBC-15F3-4661-9CB6-DA57CB2611D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BB5FBC-15F3-4661-9CB6-DA57CB2611D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F57E879C-F4FC-43D9-A5F6-88F43C45DF8F}
+	EndGlobalSection
+EndGlobal

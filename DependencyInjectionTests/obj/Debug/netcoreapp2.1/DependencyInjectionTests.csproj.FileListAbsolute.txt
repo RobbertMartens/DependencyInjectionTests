@@ -1,0 +1,17 @@
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\DependencyInjectionTests.deps.json
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\DependencyInjectionTests.runtimeconfig.json
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\DependencyInjectionTests.runtimeconfig.dev.json
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\DependencyInjectionTests.dll
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\obj\Debug\netcoreapp2.1\DependencyInjectionTests.csprojAssemblyReference.cache
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\obj\Debug\netcoreapp2.1\DependencyInjectionTests.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\obj\Debug\netcoreapp2.1\DependencyInjectionTests.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\obj\Debug\netcoreapp2.1\DependencyInjectionTests.AssemblyInfo.cs
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\DependencyInjectionTests.pdb
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\obj\Debug\netcoreapp2.1\DependencyInjectionTests.dll
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\obj\Debug\netcoreapp2.1\DependencyInjectionTests.pdb
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\Domain.dll
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\bin\Debug\netcoreapp2.1\Domain.pdb
+C:\Users\Gebruiker\source\repos\DependencyInjectionTests\DependencyInjectionTests\obj\Debug\netcoreapp2.1\DependencyInjectionTests.csproj.CopyComplete
