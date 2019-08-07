@@ -30,10 +30,26 @@ namespace DependencyInjectionTests
             Services = _testFixture.ServiceCollection.BuildServiceProvider();
             HeaderLogic = Services.GetService<IHeaderLogic>();
             AuthenticationLogic = Services.GetService<IAuthenticationLogic>();
+
+            // Get metrics from Chrome
+            var jse = (IJavaScriptExecutor)_testFixture.Driver;
+            _testFixture.Metrics.RequestTime = (long) jse.ExecuteScript(
+                "return performance.timing.responseEnd - performance.timing.requestStart;");
+
+            _testFixture.Metrics.ClientTime = (long)jse.ExecuteScript("" +
+                "return performance.timing.loadEventEnd - performance.timing.domLoading;");
+
+            _testFixture.Metrics.TotalTime = (long)jse.ExecuteScript(
+                "return performance.timing.loadEventEnd - performance.timing.requestStart;");
+
         }
 
         public void Dispose()
         {
+            _output.WriteLine($"RequestTime: {_testFixture.Metrics.RequestTime}");
+            _output.WriteLine($"ClientTime: {_testFixture.Metrics.ClientTime}");
+            _output.WriteLine($"TotalTime: {_testFixture.Metrics.TotalTime}");
+
             _testFixture.Driver.Manage().Cookies.DeleteAllCookies();
             _testFixture.Driver.Navigate().GoToUrl(_testFixture.Url);
         }

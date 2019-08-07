@@ -4,13 +4,10 @@ using Domain.Models;
 using Domain.PageLogic;
 using Domain.Pages;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
 namespace DependencyInjectionTests
 {
@@ -18,6 +15,7 @@ namespace DependencyInjectionTests
     {
         public IServiceCollection ServiceCollection { get; set; }
         public Credentials Credentials { get; set; }
+        public Metrics Metrics { get; set; } = new Metrics();
 
         public IWebDriver Driver;
         public string Dir = Directory.GetCurrentDirectory().Split("DependencyInjectionTests")[0] + "DependencyInjectionTests";
@@ -33,7 +31,7 @@ namespace DependencyInjectionTests
             ConfigureServices(ServiceCollection);
 
             var configFile = new ConfigFileReader();
-            Credentials = configFile.GetCredentials();
+            Credentials = configFile.GetCredentials();           
         }
 
         public void Dispose()
